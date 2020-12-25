@@ -1,0 +1,53 @@
+.mb-lg {
+    margin-bottom: 60px;
+}
+
+.title {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.page-top {
+    height: 800px;
+}
+
+.header {
+    padding-left: 70px;
+
+    &__li {
+        font-size: 20px;
+        line-height: 65px;
+    }
+
+    &__sns {
+        &-li > a {
+            font-size: 23px;
+        }
+    }
+}
+
+.pick-up {
+    &__inner {
+        @extend .mb-lg;
+    }
+
+    & .swiper-container {
+        @extend .mb-lg;
+    }
+}
+
+.skills {
+    &__sentence {
+        margin-top: 140px;
+
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.sentenceNum {
+    width: 140px;
+    height: 140px;
+    top: -140px;
+    left: 5px;
+}
